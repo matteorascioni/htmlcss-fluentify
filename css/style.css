@@ -1,0 +1,337 @@
+/* General Style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Utilities */
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.float-left {
+  float: left;
+}
+
+.smallbutton {
+  padding: 10px 35px;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.midbutton {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #7cbb02;
+}
+
+.bigbutton {
+  font-size: 15px;
+  padding: 20px 10px;
+  border-radius: 5px;
+  background-color: #7cbb02;
+}
+
+.in-line {
+  display: inline-block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.col-3 {
+  float: left;
+  width: calc(100% / 3);
+  padding: 0 20px;
+}
+
+.w50 {
+  width: 50%;
+}
+
+/* Typography */
+h1 {
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: grey;
+}
+
+a {
+  text-transform: uppercase;
+
+}
+
+/* Header container */
+.header-container {
+  width: 100%;
+  margin: auto;
+  background: #0c325a;
+}
+
+/* Header nav */
+.header-nav {
+  width: 80%;
+  height: 560px;
+  background-color: #0c325a;
+  background-image: url('../img/background-header.png');
+  background-repeat: no-repeat;
+  background-size: 800px;
+  background-position: right bottom;
+  margin: auto;
+}
+
+.header-nav ul li {
+  line-height: 80px;
+}
+
+/* Header left nav */
+.header-left-nav {
+  width: 15%;
+  height: 80px;
+  float: left;
+}
+
+.header-left-nav img {
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+/* Header center nav */
+.header-center-nav {
+  width: 45%;
+  float: left;
+}
+
+.header-center-nav  ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-center-nav  ul li a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Header nav right */
+.header-right-nav {
+  width: 40%;
+  float: left;
+}
+
+.header-right-nav ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.header-right-nav ul li:first-child {
+  margin-left: 35px;
+}
+
+.header-right-nav ul li a {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Header h1 */
+.header-h1 {
+  width: 40%;
+  height: 200px;
+}
+
+.header-h1 h1 {
+  font-size: 35px;
+  margin-top: 250px;
+  margin-bottom: 50px;
+}
+
+.header-h1 a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main */
+.main-container {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+/* Main top */
+.main-top {
+  width: 100%;
+  background-color: #d3d3d3;
+  padding: 50px;
+}
+
+.main-top h2 {
+  margin-bottom: 15px;
+}
+
+/* Info */
+.info {
+  width: 80%;
+  margin: 30px auto;
+}
+
+.info img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 15px;
+}
+
+.info h3 {
+  font-size: 26px;
+  color: #7cbb02;
+}
+
+.info h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 1px;
+  margin: 25px auto;
+  background: gray;
+}
+
+.info p {
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+/* Low main */
+.section-low-main {
+  width: 100%;
+  height: 350px;
+  border-top: 1px solid gray;
+}
+
+.section-low-main .div1low, .div2low {
+  margin-top: 15px;
+}
+
+.div2low {
+  width: 40%;
+}
+
+.section-low-main div img  {
+  width: 350px;
+  height: 350px;
+}
+
+.low-main {
+  width: 60%;
+  margin: auto;
+}
+
+.low-main h3 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.low-main p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.low-main a {
+  color: #5585bc;
+  text-transform: none;
+}
+
+/* Footer */
+.footer-container {
+  width: 100%;
+  height: 160px;
+  margin: auto;
+  background: lightgray;
+}
+
+.footer-margin {
+  width: 80%;
+  margin: auto;
+}
+
+/* Left footer */
+.left-footer {
+  padding-top: 60px;
+}
+
+.left-footer h3 {
+  font-size: 28px;
+}
+
+/* Right footer */
+.right-footer {
+  height: 150px;
+}
+
+.right-footer span {
+  font-size: 18px;
+  color: gray;
+}
+
+.right-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.slz-footer {
+  width: 100%;
+  margin-left: 140px;
+  margin-top: 70px;
+}
+
+.slz-footer span, a {
+  padding: 0 10px;
+}
+
+.span-foot::after {
+  position: absolute;
+  content: '';
+  width: 145px;
+  height: 1px;
+  margin-left: -150px;
+  margin-top: 20px;
+  background: gray;
+}
+
+.slz-footer a {
+  margin-left: 20px;
+}
+
+.slz-footer i {
+  margin-left: 55px;
+}
+
+/* Help fixed */
+.help-fixed {
+  position: fixed;
+  bottom: 0;
+  right: 10%;
+}
+
+.help-fixed a {
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  background-color: #7cbb02;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 5px 5px 0 0;
+}
